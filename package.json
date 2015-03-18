@@ -1,0 +1,25 @@
+{
+  "name": "telescope_reset_posts_in_category",
+  "version": "1.0.0",
+  "description": "reset upvotes and timestamps for posts in a category in the telescope system",
+  "main": "index.js",
+  "dependencies": {
+    "execSync": "^1.0.2",
+    "mongodb": "^1.4.34",
+    "mongo-uri": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkovacs/telescope_reset_posts_in_category.git"
+  },
+  "author": "Geza Kovacs (http://github.com/gkovacs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkovacs/telescope_reset_posts_in_category/issues"
+  },
+  "homepage": "https://github.com/gkovacs/telescope_reset_posts_in_category"
+}
