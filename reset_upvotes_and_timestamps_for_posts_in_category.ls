@@ -40,7 +40,7 @@ get-mongo-db (db) ->
     process.exit()
   console.log 'resetting category ' + category_name + ' with id ' + category_id
   curdate = new Date()
-  (err2,results2) <- db.collection('posts').update({categories: category_id}, {$set: { upvotes: 0, postedAt: curdate }}, {multi: true})
+  (err2,results2) <- db.collection('posts').update({categories: category_id}, {$set: { upvotes: 0, upvoters: [], postedAt: curdate }}, {multi: true})
   console.log results2
   console.log 'done resetting category ' + category_name
   db.close()
